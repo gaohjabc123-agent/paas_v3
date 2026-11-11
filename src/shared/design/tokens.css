@@ -1,0 +1,79 @@
+/* tokens.css —— 如影 AI 能力开放平台 设计令牌 v2.0 */
+:root {
+  /* 品牌：深靛蓝 + 青色科技感 */
+  --brand-900: #1E1B4B;
+  --brand-800: #312E81;
+  --brand-700: #4338CA;
+  --brand-600: #4F46E5;
+  --brand-500: #6366F1;
+  --brand-400: #818CF8;
+  --brand-100: #E0E7FF;
+  --brand-50: #EEF2FF;
+  --accent-600: #0891B2;
+  --accent-500: #06B6D4;
+  --accent-400: #22D3EE;
+  --accent-50: #ECFEFF;
+
+  /* 语义色 */
+  --success: #10B981;
+  --success-50: #ECFDF5;
+  --warning: #F59E0B;
+  --warning-50: #FFFBEB;
+  --danger: #EF4444;
+  --danger-50: #FEF2F2;
+
+  /* 中性色 */
+  --gray-0: #FFFFFF;
+  --gray-50: #F9FAFB;
+  --gray-100: #F3F4F6;
+  --gray-200: #E5E7EB;
+  --gray-300: #D1D5DB;
+  --gray-400: #9CA3AF;
+  --gray-500: #6B7280;
+  --gray-600: #4B5563;
+  --gray-700: #374151;
+  --gray-800: #1F2937;
+  --gray-900: #111827;
+
+  /* 字体与字号 */
+  --font-sans: -apple-system, BlinkMacSystemFont, "PingFang SC", "Noto Sans SC", "Microsoft YaHei", "Segoe UI", sans-serif;
+  --font-mono: "SF Mono", "JetBrains Mono", Consolas, "Courier New", monospace;
+  --text-xs: 12px;
+  --text-sm: 14px;
+  --text-base: 16px;
+  --text-lg: 20px;
+  --text-xl: 24px;
+  --text-2xl: 32px;
+  --text-3xl: 44px;
+
+  /* 间距：4px 网格 */
+  --sp-1: 4px; --sp-2: 8px; --sp-3: 12px; --sp-4: 16px;
+  --sp-5: 20px; --sp-6: 24px; --sp-8: 32px; --sp-10: 40px;
+  --sp-12: 48px; --sp-16: 64px; --sp-20: 80px;
+
+  /* 圆角与阴影 */
+  --radius-sm: 10px;
+  --radius-md: 14px;
+  --radius-lg: 18px;
+  --radius-xl: 24px;
+  --radius-pill: 999px;
+  --shadow-1: 0 1px 2px rgba(17, 24, 39, .06);
+  --shadow-2: 0 8px 24px rgba(17, 24, 39, .10);
+  --shadow-3: 0 20px 48px rgba(17, 24, 39, .18);
+  --shadow-brand: 0 12px 32px rgba(79, 70, 229, .24);
+
+  /* 布局 */
+  --topbar-h: 64px;
+  --sidenav-w: 216px;
+  --maxw: 1180px;
+
+  /* 动效 */
+  --ease: cubic-bezier(.2, .8, .2, 1);
+  --dur-fast: 120ms;
+  --dur-base: 200ms;
+  --dur-slow: 320ms;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
+}

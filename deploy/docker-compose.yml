@@ -1,0 +1,12 @@
+services:
+  experience:
+    build:
+      context: ..
+      dockerfile: deploy/Dockerfile
+    image: yunfan-digital-human:1.0.0
+    ports:
+      - "8080:8080"
+    environment:
+      PORT: "8080"
+      MOCK_TASK_MS: "1400"   # 演示用任务耗时；客户体验可保持 1000~2000
+    restart: unless-stopped
